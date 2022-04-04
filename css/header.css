@@ -2,7 +2,15 @@
   background-color: #000000;
 }
 
+.header-menu a:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+ 
+  background: -webkit-linear-gradient(rgb(255 0 0), rgb(255 0 97));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
 
 .header {
   max-width: 1200px;
@@ -38,5 +46,7 @@
   .header a {
     background: #f5f5f5;
     border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
   }
 }
